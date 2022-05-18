@@ -1,130 +1,145 @@
 {
-    "sections": {
-        "main": {
-            "type": "main-page",
-            "settings": {
-                "padding_top": 28,
-                "padding_bottom": 28
-            }
-        },
-        "1652856786d53556b6": {
-            "type": "rich-text",
-            "blocks": {
-                "1652856786c5b0669f-0": {
-                    "type": "heading",
-                    "settings": {
-                        "heading": "Objects",
-                        "heading_size": "h1"
-                    }
-                }
-            },
-            "block_order": [
-                "1652856786c5b0669f-0"
-            ],
-            "settings": {
-                "color_scheme": "background-1",
-                "full_width": true,
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "16528567880fc55770": {
-            "type": "custom-liquid",
-            "settings": {
-                "custom_liquid": "{{ page.title }}",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "1652856878f6d27fbf": {
-            "type": "rich-text",
-            "blocks": {
-                "1652856878c5197637-0": {
-                    "type": "heading",
-                    "settings": {
-                        "heading": "Tag",
-                        "heading_size": "h1"
-                    }
-                }
-            },
-            "block_order": [
-                "1652856878c5197637-0"
-            ],
-            "settings": {
-                "color_scheme": "background-1",
-                "full_width": true,
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "1652856880d0a183d4": {
-            "type": "custom-liquid",
-            "settings": {
-                "custom_liquid": "{% if page.title ==  'Liquid'%}\nThis page title is Liquid\n{% endif%}",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "165285690051a88145": {
-            "type": "custom-liquid",
-            "settings": {
-                "custom_liquid": "{% unless page.title == 'Contact' %}\nThis page title is Liquid, not Contact!\n{% endunless %}",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "1652856940072588e7": {
-            "type": "custom-liquid",
-            "settings": {
-                "custom_liquid": "{% if page.title == 'Liquid'%}\nThis page title is Liquid\n{% elsif page.title == 'Not liquid'%}\nThis page title is Not Liquid\n{% else %}\nThis page title is not Liquid nor Not Liquid,but something else\n{% endif %}",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "1652857140fd0cf107": {
-            "type": "rich-text",
-            "blocks": {
-                "16528571405075e09e-0": {
-                    "type": "heading",
-                    "settings": {
-                        "heading": "Filiter",
-                        "heading_size": "h1"
-                    }
-                }
-            },
-            "block_order": [
-                "16528571405075e09e-0"
-            ],
-            "settings": {
-                "color_scheme": "background-1",
-                "full_width": true,
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        },
-        "165285714216744ae9": {
-            "type": "custom-liquid",
-            "settings": {
-                "custom_liquid": "{{'hello, world' | capitalize }}",
-                "color_scheme": "background-1",
-                "padding_top": 40,
-                "padding_bottom": 52
-            }
-        }
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     },
-    "order": [
-        "main",
-        "1652856786d53556b6",
-        "16528567880fc55770",
-        "1652856878f6d27fbf",
-        "1652856880d0a183d4",
-        "165285690051a88145",
-        "1652856940072588e7",
-        "1652857140fd0cf107",
-        "165285714216744ae9"
-    ]
+    "1652856786d53556b6": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1652856786c5b0669f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Objects",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1652856786c5b0669f-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16528567880fc55770": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{{ page.title }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652856878f6d27fbf": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1652856878c5197637-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tag",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1652856878c5197637-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652856880d0a183d4": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% if page.title ==  'Liquid'%}\nThis page title is Liquid\n{% endif%}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165285690051a88145": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% unless page.title == 'Contact' %}\nThis page title is Liquid, not Contact!\n{% endunless %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652856940072588e7": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{% if page.title == 'Liquid'%}\nThis page title is Liquid\n{% elsif page.title == 'Not liquid'%}\nThis page title is Not Liquid\n{% else %}\nThis page title is not Liquid nor Not Liquid,but something else\n{% endif %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652857140fd0cf107": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16528571405075e09e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Filiter",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "16528571405075e09e-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165285714216744ae9": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "{{'hello, world' | capitalize }}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1652861545dcd88543": {
+      "type": "liquid-ref",
+      "settings": {
+        "liquid-ref": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1652856786d53556b6",
+    "16528567880fc55770",
+    "1652856878f6d27fbf",
+    "1652856880d0a183d4",
+    "165285690051a88145",
+    "1652856940072588e7",
+    "1652857140fd0cf107",
+    "165285714216744ae9",
+    "1652861545dcd88543"
+  ]
 }
