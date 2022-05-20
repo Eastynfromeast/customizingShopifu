@@ -125,8 +125,21 @@
     },
     "1652861545dcd88543": {
       "type": "liquid-ref",
+      "disabled": true,
       "settings": {
-        "liquid-ref": ""
+        "liquid-ref": "",
+        "liquid-checkbox": false,
+        "liquid-radio": "option-1",
+        "liquid-range": 3,
+        "liquid-select": "Option 2",
+        "liquid-textArea": ""
+      }
+    },
+    "1653033040702177c7": {
+      "type": "blog-post",
+      "settings": {
+        "posts-range": 6,
+        "new-blog": "news"
       }
     }
   },
@@ -140,6 +153,7 @@
     "1652856940072588e7",
     "1652857140fd0cf107",
     "165285714216744ae9",
-    "1652861545dcd88543"
+    "1652861545dcd88543",
+    "1653033040702177c7"
   ]
 }

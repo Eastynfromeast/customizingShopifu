@@ -3,8 +3,8 @@
     "16530228122463c470": {
       "type": "blog-post",
       "settings": {
-        "posts-range": 6,
-        "new-blog": "test-blog"
+        "posts-range": 5,
+        "new-blog": "news"
       }
     },
     "main": {
@@ -20,7 +20,7 @@
           "type": "title",
           "settings": {
             "blog_show_date": true,
-            "blog_show_author": false
+            "blog_show_author": true
           }
         },
         "share": {

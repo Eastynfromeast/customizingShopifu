@@ -1,15 +1,28 @@
 {{ section.settings.posts-range }}
 <br>
 
+{%- assign blog = section.settings.new-blog -%}
+
+<p> How many blog posts are posted? : {{ blog.articles_count }} </p>
+{% if blog.articles_count == 0%}
+    There are no blog posts on this blog category.
+{% endif%}
+
 {% unless blog.articles_count == 0 %}
     
-   There are at least 1 blog posts published here
+    <!-- Display articles based on range -->
+    <div class="page-width-desktop">
+        <div class="blog__posts articles-wrapper center">
+            {% for article in blog.articles limit: section.settings.posts-range %}
+                <div style="display: inline-block" class="blog__post grid__item article">
+                    <img src= "{{ article.image | image_url: width : 300, height: 300 }}" /> <br>
+                    {{ article.author }}
+                </div>
+            {% endfor%}
+        </div>
+    </div>
 
 {% endunless %}
-
-{% for blog in blogs %}
-    {{ blog.articles_count }}
-{% endfor %}
 
 {% schema %}
 {
@@ -21,7 +34,7 @@
             "label": "Range",
             "min": 3,
             "max": 12,
-            "step": 3,
+            "step": 1,
             "default": 3
         },
         {

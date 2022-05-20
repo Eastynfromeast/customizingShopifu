@@ -34,7 +34,25 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
 {%- endstyle -%}
+
+<style>
+  .icon {
+    width: 3.125em;
+  }
+  .visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+</style>
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable or section.settings.show_social -%}
