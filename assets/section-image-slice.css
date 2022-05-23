@@ -1,0 +1,25 @@
+li {
+    list-style: none;
+}
+
+.slice_container {
+    width: 100vw;
+    display: flex;
+    padding: 0;
+}
+
+.slice_wrap {
+    position: relative;
+}
+
+.slice_title {
+    position: absolute;
+    top: 0;
+    left: 3%;
+    color: #fff;
+}
+
+.slice_title h2 {
+    color: #fff;
+    font-size: 24px;
+}

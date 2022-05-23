@@ -1,0 +1,62 @@
+{{ 'section-image-slice.css' | asset_url | stylesheet_tag }}
+
+<ul class="slice_container">
+    {% if section.settings.imgSlice_01 != blank %}
+        <li class="slice_wrap">
+            <img src="{{ section.settings.imgSlice_01 | image_url: width: 1200}}">
+            {%- if section.settings.sliceTitle_01 != blank -%}
+                <div class="slice_title">
+                    <h2>{{ section.settings.sliceTitle_01}}</h2>
+                    {%- if section.settings.descriptionForImg_01 != blank -%}
+                        <p class="slice_info"> {{ section.settings.descriptionForImg_01 }} </p>
+                    {%- endif -%}
+                </div>
+            {%- endif -%}
+        </li>
+    {% endif %}
+</ul>
+
+{% schema %}
+{
+    "name": "Image Slice",
+    "settings" :[
+        {
+            "id": "imgSlice_01",
+            "type": "image_picker",
+            "label": "image"
+        },
+        {
+            "type": "text",
+            "id" : "sliceTitle_01",
+            "label": "Title of the Slice Image"
+        },
+        {
+            "type": "richtext",
+            "id": "descriptionForImg_01",
+            "label": "Description for the Image on the Image Slices"
+        },
+        {
+            "id": "imgSlice_02",
+            "type": "image_picker",
+            "label": "image"
+        },
+        {
+            "type": "text",
+            "id" : "sliceTitle_02",
+            "label": "Title of the Slice Image"
+        },
+        {
+            "type": "richtext",
+            "id": "descriptionForImg_02",
+            "label": "Description for the Image on the Image Slices"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image Slices",
+            "category": "Main"
+        }
+    ]
+}    
+
+{% endschema %}
