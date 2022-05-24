@@ -157,6 +157,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column1": {
           "type": "column",
@@ -213,10 +214,51 @@
       "settings": {
         "imgSlice_01": "shopify:\/\/shop_images\/model-leaning-against-a-wall-of-lights-atop-red-shag-carpet.jpg",
         "sliceTitle_01": "A Woman with Disco Vibe",
-        "descriptionForImg_01": "<p>There will be descriptional text on here!<\/p>",
-        "imgSlice_02": "shopify:\/\/shop_images\/a-barista-smiles-proudly-stood-in-her-cafe.jpg",
-        "sliceTitle_02": "A Woman in a Cafe",
-        "descriptionForImg_02": "<p>Chose Second Pictures<\/p>"
+        "descriptionForImg_01": "<p>There will be descriptional text on here!<\/p>"
+      }
+    },
+    "1653380354e41ebcfc": {
+      "type": "img-wrapper",
+      "blocks": {
+        "1653380354546ee99e-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "imgColumn_title_01": "Add a title or tagline",
+            "imgColumn_text_01": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "imgColumnbutton_label": "",
+            "imgColumn_button_link": ""
+          }
+        },
+        "1653380354546ee99e-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "imgColumn_title_01": "Add a title or tagline",
+            "imgColumn_text_01": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "imgColumnbutton_label": "",
+            "imgColumn_button_link": ""
+          }
+        },
+        "1653380354546ee99e-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "imgColumn_title_01": "Add a title or tagline",
+            "imgColumn_text_01": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+            "imgColumnbutton_label": "",
+            "imgColumn_button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653380354546ee99e-0",
+        "1653380354546ee99e-1",
+        "1653380354546ee99e-2"
+      ],
+      "settings": {
+        "wrapper-title": "Here will be some images with text",
+        "wrap_align_text": "left"
       }
     }
   },
@@ -227,6 +269,7 @@
     "collage",
     "video",
     "multicolumn",
-    "16532893630461eaf3"
+    "16532893630461eaf3",
+    "1653380354e41ebcfc"
   ]
 }
