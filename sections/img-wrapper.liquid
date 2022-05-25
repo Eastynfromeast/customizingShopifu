@@ -2,10 +2,11 @@
 
 <div class="wrapperTitle">
     {% if section.settings.wrapper-title != blank%}
-        <h2> {{section.settings.wrapper-title}} </h2>
+        <h2>
+            {{section.settings.wrapper-title}}
+        </h2>
     {% endif %}
 </div>
-
 
 
 {% schema %}
@@ -62,36 +63,36 @@
                 "id": "imgColumn_text_01",
                 "label": "Text",
                 "default":"<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.</p>"
-            },
+                },
+                {
+                    "type": "text",
+                    "id": "imgColumnbutton_label",
+                    "label": "Button label"
+                },
+                {
+                    "type": "url",
+                    "id": "imgColumn_button_link",
+                    "label": "Button link"
+                }
+            ]
+        }
+        ],
+      "presets": [
             {
-                "type": "text",
-                "id": "imgColumnbutton_label",
-                "label": "Button label"
-            },
-            {
-                "type": "url",
-                "id": "imgColumn_button_link",
-                "label": "Button link"
+                "name": "Image Wrapper",
+                "category": "Main",
+                "blocks": [
+                {
+                    "type": "text_block"
+                },
+                {
+                    "type": "text_block"
+                },
+                {
+                    "type": "text_block"
+                }
+                ]
             }
         ]
     }
-    ],
-  "presets": [
-        {
-            "name": "Image Wrapper",
-            "category": "Main",
-            "blocks": [
-            {
-                "type": "text_block"
-            },
-            {
-                "type": "text_block"
-            },
-            {
-                "type": "text_block"
-            }
-            ]
-        }
-    ]
-}
 {% endschema %}

@@ -224,7 +224,8 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "imgColumn_title_01": "Add a title or tagline",
+            "imgColumn_image_01": "shopify:\/\/shop_images\/a-barista-smiles-proudly-stood-in-her-cafe.jpg",
+            "imgColumn_title_01": "A Cafe Worker",
             "imgColumn_text_01": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
             "imgColumnbutton_label": "",
             "imgColumn_button_link": ""
