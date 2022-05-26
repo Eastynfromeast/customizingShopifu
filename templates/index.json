@@ -211,6 +211,7 @@
     },
     "16532893630461eaf3": {
       "type": "img-slice",
+      "disabled": true,
       "settings": {
         "imgSlice_01": "shopify:\/\/shop_images\/model-leaning-against-a-wall-of-lights-atop-red-shag-carpet.jpg",
         "sliceTitle_01": "A Woman with Disco Vibe",
@@ -263,8 +264,8 @@
         "1653380354546ee99e-2"
       ],
       "settings": {
-        "wrapper-title": "Here will be some images with text",
-        "wrap_align_text": "left"
+        "wrapper-title": "Image wrapper head title",
+        "wrap_align_text": "center"
       }
     }
   },

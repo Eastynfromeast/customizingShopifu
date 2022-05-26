@@ -3,11 +3,11 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#121212",
     "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#066c27",
     "gradient_accent_2": "",
-    "colors_text": "#121212",
+    "colors_text": "#fff",
     "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#ffffff",
+    "colors_background_1": "#121212",
     "gradient_background_1": "",
     "colors_background_2": "#f3f3f3",
     "gradient_background_2": "",
@@ -105,7 +105,7 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
