@@ -227,7 +227,8 @@
             "imgColumn_image": "shopify:\/\/shop_images\/ocean-water-with-swimmers.jpg",
             "imgColumn_title": "Sea",
             "imgColumn_text": "<p>Here comes summer already!<\/p>",
-            "imgColumnbutton_label": "Button for Summer",
+            "imgColumn_button_text": "See Sea",
+            "imgColumnbutton_label": "Shop Now",
             "imgColumn_button_link": "shopify:\/\/blogs\/test-blog"
           }
         },
@@ -238,7 +239,8 @@
             "imgColumn_image": "shopify:\/\/shop_images\/glass-with-iced-red-beverage-reflects-on-a-white-table.jpg",
             "imgColumn_title": "Add a title or tagline",
             "imgColumn_text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "imgColumnbutton_label": "",
+            "imgColumn_button_text": "Red Juice",
+            "imgColumnbutton_label": "Shop Now",
             "imgColumn_button_link": ""
           }
         },
@@ -246,9 +248,11 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "imgColumn_title": "Add a title or tagline",
-            "imgColumn_text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
-            "imgColumnbutton_label": "",
+            "imgColumn_image": "shopify:\/\/shop_images\/green-plants-grow-in-lines-on-rolling-hills.jpg",
+            "imgColumn_title": "Travel in Green Tea Field",
+            "imgColumn_text": "<p>日本の抹茶で人気なところはどっちでしょうか。あなたが考えてる抹茶の地元を教えって下さい。<\/p><p><\/p>",
+            "imgColumn_button_text": "Green Tea Field",
+            "imgColumnbutton_label": "Get Green",
             "imgColumn_button_link": ""
           }
         }
